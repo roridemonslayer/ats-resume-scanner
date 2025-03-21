@@ -1,0 +1,4 @@
+#for python dependencies, python deppendencies are the 
+#external libraries that the code depends on to work properly
+#its used like if people downlaod ur project adn they need 
+# to isntall soemthing, 
