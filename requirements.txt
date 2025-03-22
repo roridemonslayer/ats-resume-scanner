@@ -1,4 +1,43 @@
-#for python dependencies, python deppendencies are the 
-#external libraries that the code depends on to work properly
-#its used like if people downlaod ur project adn they need 
-# to isntall soemthing, 
+# Flask Backend
+Flask==2.2.3
+Flask-Cors==3.0.10
+gunicorn==20.1.0
+
+# Resume Parsing
+pyresparser==1.0.6
+pdfminer.six==20221105
+python-docx==0.8.11
+docx2txt==0.8
+
+# Natural Language Processing
+nltk==3.8.1
+transformers==4.28.1
+torch==2.0.0
+scikit-learn==1.2.2
+spacy==3.5.1
+gensim==4.3.1
+
+# Text Similarity and Matching
+numpy==1.24.2
+pandas==2.0.0
+scipy==1.10.1
+
+# OpenAI Integration
+openai==0.27.4
+
+# Database
+pymongo==4.3.3
+dnspython==2.3.0  # Required for MongoDB connection
+
+# Security and Authentication
+firebase-admin==6.1.0
+cryptography==39.0.2
+python-dotenv==1.0.0
+
+# AWS Integration
+boto3==1.26.115  # For AWS KMS
+
+# Utilities
+python-magic==0.4.27  # For file type detection
+tqdm==4.65.0  # For progress bars
+requests==2.28.2
